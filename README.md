@@ -1,16 +1,14 @@
-# recrutation
+# Finding odd number
 
-A new Flutter project.
+Recrutatuin task
 
 ## Getting Started
+This is simple app where user enter list integer which has minimum 3 elements. One of number stands out from rest - it is even or odd. System find this number and return 
+in on another screen. App is built with using MVVM architecture.
 
-This project is a starting point for a Flutter application.
+## Screens
+* User enter some data to list
+![Enter list](./Screens/1.jpg)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* App return found number
+![Found number](./Screens/2.jpg)
