@@ -13,6 +13,7 @@ class ResultPage extends StatelessWidget {
         body: Center(
           child: Text(
             value.toString(),
+            style: const TextStyle(fontSize: 25),
           ),
         ));
   }
