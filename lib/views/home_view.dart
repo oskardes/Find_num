@@ -28,11 +28,18 @@ class HomePage extends StatelessWidget {
               onPressed: () async {
                 homeViewModel.convertTextFieldToList(listController);
                 homeViewModel.findDiffNumber();
-                Navigator.push(
+                Navigator.pushAndRemoveUntil(
                     context,
                     MaterialPageRoute(
-                        builder: (context) =>
-                            ResultPage(value: homeViewModel.oddNumber)));
+                      builder: (context) =>
+                          ResultPage(value: homeViewModel.oddNumber),
+                    ),
+                    (route) => false);
+                // Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //         builder: (context) =>
+                //             ResultPage(value: homeViewModel.oddNumber)));
               },
               child: Text(homeViewModel.buttonText),
             ),
