@@ -3,7 +3,7 @@ import 'package:recrutation/models/model_result.dart';
 
 class HomeViewModel {
   String title = 'Finding number';
-  String labelText = 'Write list with comma and no space';
+  String labelText = 'Write list with comma and no space (min. 3 value)';
   String buttonText = 'Find';
   List<int> numbers = [];
   var oddNumber;
